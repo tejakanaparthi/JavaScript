@@ -5,6 +5,7 @@ const day=date.getDay();
 const dayArray=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
 let hour=date.getHours();
+
 if(hour>12){
   
     hour=hour%12;
